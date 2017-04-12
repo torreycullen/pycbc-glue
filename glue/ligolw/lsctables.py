@@ -345,7 +345,6 @@ class Process(object):
 	@instruments.setter
 	def instruments(self, instruments):
 		self.ifos = ifos_from_instrument_set(instruments)
-
 	def get_ifos(self):
 		"""
 		Return a set of the instruments for this row.
@@ -3041,6 +3040,8 @@ class SimInspiralTable(table.Table):
 		"phi0": "real_4",
 		"f_lower": "real_4",
 		"f_final": "real_4",
+                "lambda1":"real_4",
+                "lambda2":"real_4",
 		"eff_dist_h": "real_4",
 		"eff_dist_l": "real_4",
 		"eff_dist_g": "real_4",

@@ -3040,7 +3040,7 @@ class SimInspiralTable(table.Table):
 		"phi0": "real_4",
 		"f_lower": "real_4",
 		"f_final": "real_4",
-		"tidal_order":"real_4",
+		"tidal_order":"int_4s",
                 "lambda1":"real_4",
                 "lambda2":"real_4",
 		"eff_dist_h": "real_4",
